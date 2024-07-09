@@ -1,0 +1,28 @@
+/* font */
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+  /* nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Awlad-H{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.nav-button{
+    height: 57px;
+    width: 244px;
+    padding: 17x 24px;
+    border-radius: 8px;
+    margin-top: 38px;
+    margin-right: 150px;
+}
