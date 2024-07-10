@@ -1,11 +1,10 @@
 /* font */
 
 
-.azeret-mono-normal {
+.font-for-all {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+ 
 }
 
   /* nav */
@@ -25,4 +24,123 @@ nav{
     border-radius: 8px;
     margin-top: 38px;
     margin-right: 150px;
+    margin-bottom: 26px;
 }
+
+/* cv header */
+
+#header-img{
+    display: block;
+  margin: auto;
+}
+.header-summery{
+ text-align: center;
+}
+
+
+.cv-header{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-summery h1{
+    text-align: center;
+    display: block;
+    margin: 32px auto 24px auto;
+    height: 136px;
+    width: 998px;
+    color: #0D1321;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.regular-16{
+    text-align: center;
+    margin: 24px auto 32px auto;
+    width: 852px;
+    height: 52px;
+    font-size: 16px;
+    color: #0D1321;
+}
+
+/* contact button */
+
+.contact-btn{
+   margin-bottom: 35px;
+    padding: 21px 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    height: 65px;
+    width: 244px;
+    border-radius: 8px;
+    background-color: #0D1321 ;
+}
+
+/* summary 2 */
+
+.summary-2 h1{
+    text-align: center;
+    display: block;
+    margin: 80px auto 24px auto;
+    height: 37px;
+    width: 852px;
+    color: #0D1321;
+    font-weight: bolder;
+    font-size: 32px;
+    }
+    /* summary child font style */
+
+    .summary-regular-16{
+      
+      
+        width: 468px;
+        height: 52px;
+        font-size: 16px;
+        color: #0D1321;
+    }
+    
+    .bold-24{
+        font-weight: bold;
+        font-size: 24px;
+        padding-bottom: 16px;
+    }
+
+    /* summary child */
+    .summary-2{
+        margin-right: 90px;
+    }
+   
+    .summary-2-parent{
+        border-radius: 16px;
+        background-color: #FFFFFF;
+       
+     width: 75%;
+        display: flex;
+     margin: 40px 191px 40px 100px;
+        padding: 20px 67px; 
+    }
+    .summary-2-child{
+        padding-right: 98.83px ;
+        height: 219px;
+        width: 477px;
+    }
+    .summary-2-btn {
+        padding: 12px 20px ;
+        font-weight: 600;
+        font-size: 20px;
+        background-color: #FFFFFF;
+    }
+    .father{
+        display: block;
+        margin: 50px auto;
+    }
+
+    /* summary grandparent */
+
+   .summary-grandparent{
+    margin: 69px 133px 0px auto;
+        background-color: #0d132102;
+        padding: 80px  191px 80px 97px;
+        height: 1233px;
+        width: 1200px;
+   }
