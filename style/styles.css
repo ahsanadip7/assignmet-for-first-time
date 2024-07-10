@@ -46,7 +46,7 @@ nav{
 .header-summery h1{
     text-align: center;
     display: block;
-    margin: 32px auto 24px auto;
+    margin: 32px auto 14px auto;
     height: 136px;
     width: 998px;
     color: #0D1321;
@@ -79,6 +79,7 @@ nav{
 /* summary 2 */
 
 .summary-2 h1{
+   
     text-align: center;
     display: block;
     margin: 80px auto 24px auto;
@@ -144,3 +145,172 @@ nav{
         height: 1233px;
         width: 1200px;
    }
+
+   /* inspiration part */
+
+   .tittle-1{
+    text-align: center;
+    display: block;
+    margin: 104px auto 24px auto;
+    height: 37px;
+    width: 852px;
+    color: #0D1321;
+    font-weight: bolder;
+    font-size: 32px;
+   }
+   .video-tag{
+    margin: 2px 380px;
+    padding: 20px 0px;
+   border-radius: 16px;
+    border: 1px solid #0d13211c ;
+   
+   }
+   .video-tag iframe{
+   
+    border-radius: 16px;
+   }
+
+   /* apss container */
+
+  .apps-parent{
+  margin-left: 180px;
+  margin-right: 160px;
+  }
+
+    .apps-container {
+        padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .apps-summary-1{
+        background-color: #ff4b1e06;
+        height: 299px;
+        width: 364px;
+        border-radius: 16px;
+        margin-right: 24px  ;
+        padding: 40px;
+    }
+    .apps-summary-2{
+        background-color: #004de806;
+        height: 299px;
+        width: 364px;
+        border-radius: 16px;
+        margin-right: 24px  ;
+        padding: 40px;
+    }
+    .apps-summary-3{
+        background-color: #ffdd0006;
+        height: 299px;
+        width: 364px;
+        border-radius: 16px;
+        margin-right: 24px  ;
+        padding: 40px;
+    }
+    .learn-btn{
+        color: #0D1321;
+    }
+    .apps-title {
+        height: 37px;
+    width: 852px;
+    color: #0D1321;
+    font-weight: bolder;
+    font-size: 32px;
+    }
+    .apps-pera {
+       
+    font-size: 16px;
+    color: #0D1321;
+    }
+
+    /* more appa summary */
+    .summary-3-parent{
+    border-radius: 16px;
+   border: 1px solid;
+   
+   align-items: center;
+
+    display: flex;
+ margin: 40px 24px 40px 24px;
+    padding: 10px 50px; 
+    }
+
+    .last-pera{
+        padding-left: 8px;
+        width: 852px;
+    height: 52px;
+    font-size: 16px;
+    color: #0D1321;
+    }
+
+    /* footer */
+
+    .footer-h1{
+        text-align: center;
+    display: block;
+    margin: 104px auto 24px auto;
+    height: 37px;
+    width: 852px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    }
+
+    .footer-p{
+        text-align: center;
+    margin: 24px auto 32px auto;
+    width: 852px;
+    height: 52px;
+    font-size: 16px;
+    color: #FFFFFF;
+    }
+
+    .text-place{
+        font-size: 16px;
+        color: #0d1321fd;
+        border-radius: 8px;
+        height: 23px;
+        width: 548px;
+        padding: 19px 215px 17px 20px ;
+       
+        
+    }
+    .footer-submit{
+        background-color: #FFFFFF;
+        height: 57px;
+        width: 120px;
+        color: #0D1321;
+        padding: 17px 20px;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 8px;
+       
+    }
+    .footer-input{
+       margin-left: 600px;
+      
+    }
+    .footer{
+   
+     border-radius: 16px;
+      padding-top:  64px;
+      padding-bottom: 64px;
+       background-image: url(../assets/handshake.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       margin-bottom: 30px;
+       margin-left: 30px;
+    }
+
+    .footer-icone{
+        display: flex;
+       margin-left: 800px;
+    }
+
+    .footer-bottom-h1{
+        display: flex;
+    
+    }
+   
